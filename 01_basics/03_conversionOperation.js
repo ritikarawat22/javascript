@@ -5,6 +5,7 @@ let score = "true"
 
 let valueInNumber = Number(score)
 
+
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
@@ -15,4 +16,28 @@ let valueInNumber = Number(score)
 //true->1   false->0
 //null->0
 
-let isLoggedIn
+
+/*let isLoggedIn = 1
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);*/
+
+/*let isLoggedIn = ""
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);*/
+
+/*let isLoggedIn = "ritika"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);*/
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
+
+
+
+

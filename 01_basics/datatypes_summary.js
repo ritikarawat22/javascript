@@ -16,10 +16,10 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId)
 
-const bigNumber = 34556768798796764544321n // bigInt
+// const bigNumber = 34556768798796764544321n // bigInt
 
 // Reference Type Datatype(Non-Primitive)-memory reference can be allocated in this.
-//Arrays,Objects,Functions
+//Arrays,Objects,Functions -->typeof returns datatype as object but function's typeof is object function.
 
 const heroes = ["shaktiman","naagraj","doga"]
 let myObj ={
@@ -27,5 +27,20 @@ let myObj ={
     age: 22,                                   //objects are written inside curly braces as a key value pair.
 }
 
+//function can be treated as a variable in javascript.
+
+//function(){}  --> function defination
+
+const myFunction  = function(){                                 //function defination stored in  a variable.
+    console.log("Hello World!!");
+}       
+
+console.log(typeof bigNumber);  //typeof gives datatype of the variable.
+console.log(typeof outsideTemp);
+console.log(typeof heroes);
+console.log(typeof myObj);
+console.log(typeof myFunction);
+console.log(typeof id);
+console.log(typeof anotherId);
 
 

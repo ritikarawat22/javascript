@@ -44,3 +44,23 @@ console.log(typeof id);
 console.log(typeof anotherId);
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack memory(used in primitive datatype)-you get  variable copy,heap memory(Non-Primitive datatype) -you get reference of original value.
+
+let myYoutubename = "ritikarawatdotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
